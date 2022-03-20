@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="text-3xl font-light text-blue-900 py-2">
-        I'm <span class="font-semibold">{{ data.main.firstname }}</span>
+        I'm <span class="font-semibold">{{ data.main.name }}</span>
       </div>
       <div class="font-light text-sm text-gray-400">
         {{ data.main.occupation }}

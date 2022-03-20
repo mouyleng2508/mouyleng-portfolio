@@ -23,15 +23,27 @@
         <div class="italic text-lg py-2 font-medium">
           {{ item.type }}
         </div>
-        <div class="font-light">
-          <div>
-            School: <span>{{ item.school }}</span>
+        <div class="font-normal text-sm">
+          <div class="flex py-1">
+            <div class="w-1/5 font-medium">School:</div>
+            <div class="w-4/5">{{ item.school }}</div>
           </div>
-          <div>
-            Year: <span>{{ item.year }}</span>
+          <div class="flex py-1">
+            <div class="w-1/5 font-medium">Year:</div>
+            <div class="w-4/5">{{ item.year }}</div>
           </div>
-          <div>
-            Level: <span>{{ item.grade }}</span>
+          <div class="flex py-1">
+            <div class="w-1/5 font-medium">Level:</div>
+            <div
+              class="
+                w-4/5
+                overflow-ellipsis overflow-hidden
+                max-h-20
+                text-justify
+              "
+            >
+              {{ item.grade }}
+            </div>
           </div>
         </div>
 
@@ -46,7 +58,7 @@
 
     <Title title="Work" subtitle="My Work Experiences" />
 
-    <div class="lg:grid lg:grid-cols-2 gap-8">
+    <div class="lg:grid lg:grid-cols-2 gap-8 font-sans">
       <div
         class="
           bg-blue-50
@@ -64,15 +76,27 @@
         <div class="italic text-lg py-2 font-medium">
           {{ data.work.position }}
         </div>
-        <div class="font-light">
-          <div>
-            Name: <span>{{ data.work.company }}</span>
+        <div class="font-normal text-sm">
+          <div class="flex py-1">
+            <div class="w-1/5 font-medium">Name:</div>
+            <div class="w-4/5">{{ data.work.company }}</div>
           </div>
-          <div>
-            Year: <span>{{ data.work.year }}</span>
+          <div class="flex py-1">
+            <div class="w-1/5 font-medium">Year:</div>
+            <div class="w-4/5">{{ data.work.year }}</div>
           </div>
-          <div>
-            Descriptions: <span>{{ data.work.description }}</span>
+          <div class="flex py-1">
+            <div class="w-1/5 font-medium">Description:</div>
+            <div
+              class="
+                w-4/5
+                overflow-ellipsis overflow-hidden
+                max-h-20
+                text-justify
+              "
+            >
+              {{ data.work.description }}
+            </div>
           </div>
         </div>
       </div>
@@ -87,7 +111,7 @@
         class="
           bg-blue-50
           p-12
-          text-blue-900
+          text-indigo-900
           transform
           transition
           duration-300
@@ -101,7 +125,7 @@
         <div class="italic text-lg py-2 font-medium">
           {{ item.title }}
         </div>
-        <div class="font-light">
+        <div class="font-normal text-sm">
           <div>
             {{ item.details }}
           </div>
