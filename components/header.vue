@@ -2,6 +2,7 @@
   <div
     class="
       mx-16
+      md:py-60
       py-36
       lg:mx-32
       md:grid md:grid-cols-3
@@ -30,7 +31,7 @@
     <div class="px-4 flex justify-center pt-12">
       <img
         :src="data.main.profile"
-        alt="myphoto"
+        alt="Profile"
         class="object-cover h-40 w-40 p-1 rounded-full border border-indigo-800"
       />
     </div>

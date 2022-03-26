@@ -33,6 +33,10 @@
             <div class="w-2/3">{{ item.date }}</div>
           </div>
           <div class="flex py-1">
+            <div class="w-1/3 font-medium">Status:</div>
+            <div class="w-2/3">{{ item.status }}</div>
+          </div>
+          <div class="flex py-1 pb-4">
             <div class="w-1/3 font-medium">Description:</div>
             <div
               class="
@@ -47,19 +51,8 @@
           </div>
         </div>
 
-        <!-- <div
-          class="
-            absolute
-            bottom-8
-            right-12
-            italic
-            text-sm
-            hover:underline
-            capitalize
-            pt-10
-          "
-        >
-          read more<i class="fa-solid fa-right-long text-sm pl-2"></i>
+        <!-- <div class="absolute bottom-8 right-10 italic text-sm capitalize pt-10">
+          read more >><i class="fa-solid fa-right-long text-sm pl-2"></i>
         </div> -->
       </div>
     </div>

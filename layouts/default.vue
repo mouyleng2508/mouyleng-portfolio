@@ -78,6 +78,10 @@
       </div>
     </nav>
 
+    <!-- <button class="goTop" v-scroll="onScroll" v-if="isVisible" @click="toTop"> -->
+
+    <!-- </button> -->
+
     <nuxt />
 
     <footer>
@@ -139,11 +143,26 @@ export default {
     return {
       data: data,
       open: false,
+      isVisible: false,
     };
   },
   methods: {
     toggle() {
       this.open = !this.open;
+    },
+    scrollToTop() {
+      window.scrollTo(0, 0);
+    },
+    onScroll(e) {
+      if (typeof window === "undefined") return;
+      const top = window.pageYOffset || e.target.scrollTop || 0;
+      this.isVisible = top > 20;
+    },
+    toTop() {
+      window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+      });
     },
   },
 };

@@ -18,7 +18,7 @@
             "text": "However tiresome it becomes never let yourself succum to despair.",
             "img": "/images/image3.jpg"
         },
-        "address": "No. 245, Peal Nhek I village, Ptes Prey Commune, Pursat City, Pursat Province",
+        "address": "No. 245, Pheal Nhek I village, Phteah Prey Commune, Pursat Municipality, Pursat Province",
         "social": {
             "codewar": "https://www.codewars.com/users/mouyleng-h",
             "facebook": "https://web.facebook.com/momol3ng",
@@ -66,36 +66,42 @@
             "title": "Casstack Chatbot Ordering System Q4 2021",
             "company": "Casstack",
             "date": "25/02/2022 ~ Present",
+            "status": "In Progress",
             "description": "UX/UI Design, and Develop Dashboard for Chatbot ordering"
         },
         {
             "title": "KIT Point Management System 5.0",
             "company": "Incubation Center",
             "date": "December 2020 ~ Present",
+            "status": "In Progress",
             "description": "One year experience with Vue.js as well as Nuxtjs, and Vueitfy. Developing an internal system with full of functionalities logics and dashboards with supporting of existing components and library. Another responsibility are call and use Rest API from database to display in the UI."
         },
         {
             "title": "Data Science Research",
             "company": "IGNITE VC",
             "date": "July ~ August 2020",
+            "status": "Complete",
             "description": "Have done a small research in Data Science and explore in R programming. Took online course. Throughout the course I’ve learnt how to visualize, use and analyze data. How dataframe were programmed in R and show as a plot diagram which is easy to predict and analyze."
         },
         {
             "title": "Solar and Earthship Research",
             "company": "IGNITE VC",
             "date": "Febraury ~ March 2020",
+            "status": "Complete",
             "description": "Research about solar panel. Find the solution for Earthship off-grid Accommodation in the deep forest in Kirirom, How to prevent and look after the solar from wild animal and the weather."
         },
         {
             "title": "VKIS - Tech Teaching",
             "company": "KEEN VC",
             "date": "November ~ December 2019",
+            "status": "Complete",
             "description": "Support VKIS aka VKirirom International School in guiding and introducing new Technologies and Programming for the kids from foreign countries such as Philippines, Japan, Cambodia, etc. From the research I have learnt the new technology and improve my soft skills like how to convey and persuade the kids of the knowledge I’ve known."
         },
         {
             "title": "KIT Student Recruitement 2019",
             "company": "DGK VC",
             "date": "July 2019 ~ December 2019",
+            "status": "Complete",
             "description": "6 months experience with Digital Marketing, Creating content and script of videos. Focus on 3 main contents which is Transforming Lives, Addressing Cocerns and Student Life & Academic Highlight. In charge of promoting school via Facebook for recruiting the best students in Cambodia."
         }
     ],
@@ -193,5 +199,9 @@
             "username": "momol3ng",
             "url": "https://www.instagram.com/_momoleng_/"
         }
+    },
+    "error": {
+        "img": "/error/sad-face.png",
+        "text": "Page Not Found"
     }
 }
