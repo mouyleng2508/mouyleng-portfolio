@@ -11,7 +11,7 @@
         "profile": "/images/image1.jpg",
         "personalemail": "mouylengheng25@gmail.com",
         "phone": "+855 96 651 020 4",
-        "bio": "Hi, I'm Mouyleng. I am a Software Engineering student in Kirirom Institute of Technology - KIT. I am a UX/UI designing and Frontend Web Developement intern in my university. Coding is suck sometimes. So I have somethings else to occupy myself like design or doing somethings creative 💫 . Always accept new challenges. Willing to learn new things. Believe in Hardwork and Teamwork. Every succeess is not coincidental but it comes from working hard, commitment, learning and sacrifice. Hardwork pays off.",
+        "bio": "Hi, I’m Mouyleng. I am a Software Engineering student in Kirirom Institute of Technology - KIT. I am a UX/UI designing and Frontend Web Development intern in my university. Coding is suck sometimes. So I have somethings else to occupy myself like design or doing somethings creative . Always accept new challenges. Willing to learn new things. Believe in Hard-work and Teamwork. Every success is not coincidental but it comes from working hard, commitment, learning and sacrifice. Hard-work pays off.",
         "briefbio": "Hi, I'm Mouyleng from Pursat Province, Cambodia 🇰🇭 ! I am currently in my senior year majoring in Software Engineering in Kirirom Institute of Technology - KIT. I like creative things 💫  like DIY, design, handmade thing, origami and so on. Recently just found a new hobby which is Dancing. It's fun. ",
         "pointofview": "Capability distress makes improvement.",
         "quote": {
@@ -130,10 +130,6 @@
         }
     ],
     "skillsets": [
-        {
-            "name": "Python",
-            "progress": 30
-        },
         {
             "name": "Vuejs/Nuxtjs",
             "progress": 75
