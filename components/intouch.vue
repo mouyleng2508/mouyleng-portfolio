@@ -1,5 +1,5 @@
 <template>
-  <div class="px-16 lg:px-32 py-20 text-center">
+  <div class="px-8 lg:px-32 py-16 text-center">
     <div class="font-sans">
       <div class="font-semibold text-gray-500 text-2xl pb-3 font-gochihand">
         GET IN TOUCH

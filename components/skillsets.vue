@@ -1,6 +1,6 @@
 <template>
   <div class="bg-blue-50">
-    <div class="p-16 lg:mx-16 lg:grid lg:grid-cols-2 lg:gap-x-10 font-sans">
+    <div class="p-8 lg:mx-16 lg:grid lg:grid-cols-2 lg:gap-x-10 font-sans">
       <div class="text-center flex flex-col items-center justify-center">
         <div class="text-indigo-900 text-2xl hover:font-light">
           {{ data.main.pointofview }}

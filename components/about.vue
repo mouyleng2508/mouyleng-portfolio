@@ -1,5 +1,5 @@
 <template>
-  <div class="py-40 px-16 lg:px-32">
+  <div class="lg:py-40 lg:px-32 px-8 py-12">
     <div class="md:grid md:grid-cols-3">
       <div
         class="transform transition duration-300 hover:scale-95 rotate-[-7deg]"

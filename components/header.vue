@@ -1,7 +1,7 @@
 <template>
   <div
     class="
-      mx-16
+      px-8
       md:py-60
       py-36
       lg:mx-32

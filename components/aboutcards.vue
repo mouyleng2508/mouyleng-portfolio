@@ -1,5 +1,5 @@
 <template>
-  <div class="px-16 lg:px-32 py-20">
+  <div class="px-8 lg:px-32 py-20">
     <!-- Education Card starts here -->
     <Title title="Education" subtitle="My Educations" class="pt-0" />
 
@@ -7,7 +7,8 @@
       <div
         class="
           bg-blue-50
-          p-12
+          lg:p-12
+          p-8
           text-blue-900
           transform
           transition
@@ -25,18 +26,18 @@
         </div>
         <div class="font-normal text-sm">
           <div class="flex py-1">
-            <div class="w-1/5 font-medium">School:</div>
-            <div class="w-4/5">{{ item.school }}</div>
+            <div class="w-1/3 font-medium">School:</div>
+            <div class="w-2/3">{{ item.school }}</div>
           </div>
           <div class="flex py-1">
-            <div class="w-1/5 font-medium">Year:</div>
-            <div class="w-4/5">{{ item.year }}</div>
+            <div class="w-1/3 font-medium">Year:</div>
+            <div class="w-2/3">{{ item.year }}</div>
           </div>
           <div class="flex py-1">
-            <div class="w-1/5 font-medium">Level:</div>
+            <div class="w-1/3 font-medium">Level:</div>
             <div
               class="
-                w-4/5
+                w-2/3
                 overflow-ellipsis overflow-hidden
                 max-h-20
                 text-justify
@@ -62,7 +63,8 @@
       <div
         class="
           bg-blue-50
-          p-12
+          lg:12
+          p-8
           text-blue-900
           transform
           transition
@@ -110,7 +112,8 @@
       <div
         class="
           bg-blue-50
-          p-12
+          lg:p-12
+          p-8
           text-indigo-900
           transform
           transition
@@ -125,7 +128,7 @@
         <div class="italic text-lg py-2 font-medium">
           {{ item.title }}
         </div>
-        <div class="font-normal text-sm">
+        <div class="font-normal text-justify text-sm">
           <div>
             {{ item.details }}
           </div>

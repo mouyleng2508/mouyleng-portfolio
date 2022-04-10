@@ -7,7 +7,8 @@
       <div
         class="
           bg-blue-50
-          p-10
+          p-8
+          lg:p-12
           text-blue-900
           relative
           max-h-84
@@ -76,7 +77,8 @@
     >
       <div
         class="
-          p-12
+          lg:p-12
+          p-8
           text-blue-900
           relative
           flex flex-col

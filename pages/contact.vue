@@ -1,5 +1,5 @@
 <template>
-  <div class="px-16 lg:px-32 py-20">
+  <div class="px-8 lg:px-32 py-20">
     <Title title="Contact" subtitle="Get to Know Me" class="pt-0" />
 
     <div class="lg:grid lg:grid-cols-2 gap-6 text-blue-900 font-sans">

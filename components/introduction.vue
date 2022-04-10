@@ -1,6 +1,6 @@
 <template>
   <div>
-    <section class="py-40 bg-blue-50 px-16 lg:px-32">
+    <section class="py-40 bg-blue-50 px-8 lg:px-32">
       <div class="md:grid md:grid-cols-3">
         <div class="transform transition duration-300 hover:scale-95 shadow-lg">
           <img
