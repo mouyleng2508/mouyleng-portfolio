@@ -1,6 +1,6 @@
 <template>
   <div class="font-poppins flex flex-col justify-between h-screen">
-    <nav class="px-16 lg:px-32 pt-16 text-blue-900">
+    <nav class="px-8 lg:px-32 pt-16 text-blue-900">
       <div class="flex items-center justify-between">
         <nuxt-link to="/" class="text-2xl font-poppins py-2 font-normal">
           Mouyleng Portfolio
@@ -32,7 +32,7 @@
                 class="font-normal p-2 hover:bg-blue-100 hover:rounded-md"
                 to="/about"
               >
-                ABOUT
+                About
               </nuxt-link>
             </div>
             <div class="pr-4 py-2 block lg:inline-block">
@@ -40,7 +40,7 @@
                 class="font-normal p-2 hover:bg-blue-100 hover:rounded-md"
                 to="/projects"
               >
-                PROJECT
+                Project
               </nuxt-link>
             </div>
             <div class="pr-4 py-2 block lg:inline-block">
@@ -48,9 +48,17 @@
                 class="font-normal p-2 hover:bg-blue-100 hover:rounded-md"
                 to="/contact"
               >
-                CONTACTS
+                Contact
               </nuxt-link>
             </div>
+            <!-- <div class="pr-4 py-2 block lg:inline-block">
+              <nuxt-link
+                class="font-normal p-2 hover:bg-blue-100 hover:rounded-md"
+                to="/blogs"
+              >
+                Blog
+              </nuxt-link>
+            </div> -->
             <div class="pr-8 py-2 lg:inline-block block">
               <div class="p-2 hover:bg-blue-100 hover:rounded-md font-normal">
                 <a href="/HengMouylengCV.pdf" download=""
@@ -78,10 +86,6 @@
       </div>
     </nav>
 
-    <!-- <button class="goTop" v-scroll="onScroll" v-if="isVisible" @click="toTop"> -->
-
-    <!-- </button> -->
-
     <nuxt />
 
     <footer>
@@ -90,7 +94,7 @@
         class="
           text-indigo-900
           py-5
-          px-16
+          px-8
           lg:px-32 lg:flex lg:justify-between lg:items-center
         "
       >
@@ -149,14 +153,6 @@ export default {
   methods: {
     toggle() {
       this.open = !this.open;
-    },
-    scrollToTop() {
-      window.scrollTo(0, 0);
-    },
-    onScroll(e) {
-      if (typeof window === "undefined") return;
-      const top = window.pageYOffset || e.target.scrollTop || 0;
-      this.isVisible = top > 20;
     },
     toTop() {
       window.scrollTo({

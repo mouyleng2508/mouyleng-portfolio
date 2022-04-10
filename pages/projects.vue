@@ -1,5 +1,5 @@
 <template>
-  <div class="px-16 lg:px-32 py-20">
+  <div class="px-8 lg:px-32 py-20">
     <Title title="Projects" subtitle="Project Lists" class="pt-0" />
 
     <!-- Cards start here -->
@@ -7,7 +7,7 @@
       <div
         class="
           bg-blue-50
-          p-12
+          p-10
           text-blue-900
           relative
           max-h-84
@@ -36,13 +36,13 @@
             <div class="w-1/3 font-medium">Status:</div>
             <div class="w-2/3">{{ item.status }}</div>
           </div>
-          <div class="flex py-1 pb-4">
+          <div class="flex py-1">
             <div class="w-1/3 font-medium">Description:</div>
             <div
               class="
                 w-2/3
                 overflow-ellipsis overflow-hidden
-                max-h-20
+                max-h-full
                 text-justify
               "
             >

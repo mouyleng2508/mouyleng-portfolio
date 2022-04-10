@@ -28,7 +28,8 @@
             >, Frontend Web Developer, Software Engineer, UX/UI Designer
           </div> -->
           <div class="leading-6 text-justify py-4">
-            {{ data.main.bio }}
+            {{ data.main.briefbio }}
+            <div>I hope you find something useful here. ٩(˘◡˘)۶</div>
           </div>
 
           <!-- <button

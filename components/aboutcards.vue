@@ -78,20 +78,20 @@
         </div>
         <div class="font-normal text-sm">
           <div class="flex py-1">
-            <div class="w-1/5 font-medium">Name:</div>
-            <div class="w-4/5">{{ data.work.company }}</div>
+            <div class="w-1/3 font-medium">Name:</div>
+            <div class="w-2/3">{{ data.work.company }}</div>
           </div>
           <div class="flex py-1">
-            <div class="w-1/5 font-medium">Year:</div>
-            <div class="w-4/5">{{ data.work.year }}</div>
+            <div class="w-1/3 font-medium">Year:</div>
+            <div class="w-2/3">{{ data.work.year }}</div>
           </div>
           <div class="flex py-1">
-            <div class="w-1/5 font-medium">Description:</div>
+            <div class="w-1/3 font-medium">Description:</div>
             <div
               class="
-                w-4/5
+                w-2/3
                 overflow-ellipsis overflow-hidden
-                max-h-20
+                max-h-full
                 text-justify
               "
             >

@@ -11,8 +11,8 @@
         "profile": "/images/image1.jpg",
         "personalemail": "mouylengheng25@gmail.com",
         "phone": "+855 96 651 020 4",
-        "bio": "Hi, I'm Mouyleng from Pursat Province, Cambodia 🇰🇭 ! I am currently in my senior year majoring in Software Engineering in Kirirom Institute of Technology - KIT. I am passionate about UX/UI design and Frontend Web Developement. I have been working with these field for the past two years now. Coding is suck sometimes. So I have somethings else to occupy myself like design or doing somethings creative 💫 . Always accept new challenges. Willing to learn new things. Believe in Hardwork and Teamwork. Every succeess is not coincidental but it comes from working hard, commitment, learning and sacrifice. Hardwork pays off.",
-        "briefbio": "",
+        "bio": "Hi, I'm Mouyleng. I am a Software Engineering student in Kirirom Institute of Technology - KIT. I am a UX/UI designing and Frontend Web Developement intern in my university. Coding is suck sometimes. So I have somethings else to occupy myself like design or doing somethings creative 💫 . Always accept new challenges. Willing to learn new things. Believe in Hardwork and Teamwork. Every succeess is not coincidental but it comes from working hard, commitment, learning and sacrifice. Hardwork pays off.",
+        "briefbio": "Hi, I'm Mouyleng from Pursat Province, Cambodia 🇰🇭 ! I am currently in my senior year majoring in Software Engineering in Kirirom Institute of Technology - KIT. I like creative things 💫  like DIY, design, handmade thing, origami and so on. Recently just found a new hobby which is Dancing. It's fun. ",
         "pointofview": "Capability distress makes improvement.",
         "quote": {
             "text": "However tiresome it becomes never let yourself succum to despair.",
@@ -74,7 +74,7 @@
             "company": "Incubation Center",
             "date": "December 2020 ~ Present",
             "status": "In Progress",
-            "description": "One year experience with Vue.js as well as Nuxtjs, and Vueitfy. Developing an internal system with full of functionalities logics and dashboards with supporting of existing components and library. Another responsibility are call and use Rest API from database to display in the UI."
+            "description": "One year experience with Vue.js as well as Nuxtjs, and Vueitfy. Developing an internal system with full of functionalities logics and dashboards with supporting of existing components and library. Fetch data from RestAPI in database to display in UI."
         },
         {
             "title": "Data Science Research",
@@ -169,7 +169,7 @@
         },
         {
             "text": "Location",
-            "info": "No. 245, Peal Nhek I village, Peal Nhek I Commune, Pursat City, Pursat Province",
+            "info": "No. 245, Pheal Nhek I village, Phtes Prey Commune, Pursat City, Pursat Province",
             "icon": "map-location-dot"
         }
     ],
@@ -200,6 +200,22 @@
             "url": "https://www.instagram.com/_momoleng_/"
         }
     },
+    "blogs": [
+        {
+            "id": 1,
+            "title": "100 Days till JLPT",
+            "image": "/blogs/JLPT.jpg",
+            "date": "March 25, 2022",
+            "read": "2 mins"
+        },
+        {
+            "id": 2,
+            "title": "First Trip with the Girls",
+            "image": "/blogs/sea.jpg",
+            "date": "March 25, 2021",
+            "read": "2 mins"
+        }
+    ],
     "error": {
         "img": "/error/sad-face.png",
         "text": "Page Not Found"
