@@ -6,10 +6,7 @@
           {{ data.main.pointofview }}
         </div>
         <div class="font-normal text-sm text-indigo-900 pt-6 text-justify">
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consectetur
-          quia tempora optio expedita quam assumenda dolorum reprehenderit
-          repellat magnam quos sapiente quisquam perferendis nam facilis
-          molestias, esse earum aspernatur error?
+          {{ data.main.subPOV }}
         </div>
         <div></div>
       </div>
